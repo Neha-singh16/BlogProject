@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Developers - The World of Programmers </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.sheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CoderBlogs</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <!-- <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button> -->
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <header class="border-bottom lh-1 py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                <div class="col-4 text-center">
+                    <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Large</a>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary" href="#" aria-label="Search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+                            viewBox="0 0 24 24">
+                            <title>Search</title>
+                            <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                            <path d="M21 21l-5.2-5.2"></path>
+                        </svg>
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-3 border-bottom">
+            <nav class="nav nav-underline justify-content-between">
+                <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
+                <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+            </nav>
+        </div>
+    </div>
+    <main class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+            <div class="col-lg-6 px-0">
+                <h1 class="display-4 fst-italic">"Byte-sized Brilliance: Adventures in Code"</h1>
+                <p class="lead my-3">"Byte-sized Brilliance: Adventures in Code" promises an engaging and enlightening
+                    experience for readers interested in programming and technology. </p>
+                <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+            </div>
+        </div>
+          <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    From the Firehose
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">"Demystifying Recursion: A Journey into the Depths of
+                        Code"</h2>
+                    <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+
+                    <p>Introduction:</p>
+                    <p>Welcome back to "Byte-sized Brilliance: Adventures in Code"! Today, we're embarking on a journey
+                        into the fascinating world of recursion. Recursion, a powerful concept in computer science and
+                        programming, often mystifies beginners and even seasoned developers. But fear not! By the end of
+                        this post, you'll have a solid understanding of what recursion is, how it works, and why it's
+                        such a valuable tool in a coder's arsenal.</p>
+                    <hr>
+                    <h4>What is Recursion?</h4>
+                    <p>At its core, recursion is a programming technique where a function calls itself in order to solve
+                        smaller instances of the same problem. This might sound a bit abstract at first, so let's break
+                        it down with a simple example: calculating the factorial of a number.
+
+                        Consider the factorial of a positive integer n, denoted as n!. By definition, n! is the product
+                        of all positive integers less than or equal to n. For example, 5! (read as "5 factorial") is
+                        equal to 5 × 4 × 3 × 2 × 1, which equals 120.
+
+                    </p>
+                    <h2>Blockquotes</h2>
+                    <p>This is an example blockquote in action:</p>
+                    <blockquote class="blockquote">
+                        <p>Quoted text goes here.</p>
+                    </blockquote>
+                    <p>Here are some potential quotes from the blog post "Demystifying Recursion: A Journey into the
+                        Depths of Code":</p>
+                    <h3>Example lists</h3>
+                    <ul>
+                        <li>"Recursion: where the solution to a problem lies within the problem itself."</li>
+                        <li>"In the depths of code, recursion reveals its elegance, solving complex problems with
+                            simplicity."</li>
+                        <li>"Just as mirrors reflect endlessly, recursion calls upon itself, diving deeper until the
+                            problem is solved."</li>
+                    </ul>
+                    <p>And this is an ordered list:</p>
+                    <ol>
+                        <li>"Recursion is not a maze but a path of clarity, guiding us through the intricacies of
+                            problem-solving."</li>
+                        <li>"In the dance of code, recursion twirls gracefully, elegantly solving puzzles with each
+                            recursive call."</li>
+                        <li>"Recursion: the art of breaking down complexity into simplicity, one recursive step at a
+                            time."</li>
+                    </ol>
+                    <p>And this is a definition list:</p>
+                    <dl>
+                        <dt>HyperText Markup Language (HTML)</dt>
+                        <dd>The language used to describe and define the content of a Web page</dd>
+                        <dt>Cascading Style Sheets (CSS)</dt>
+                        <dd>Used to describe the appearance of Web content</dd>
+                        <dt>JavaScript (JS)</dt>
+                        <dd>The programming language used to build advanced Web sites and applications</dd>
+                    </dl>
+                    <h2>Inline HTML elements</h2>
+                    <p>HTML defines a long list of available inline tags, a complete list of which can be found on the
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer
+                            Network</a>.
+                    </p>
+                    <ul>
+                        <li><strong>To bold text</strong>, use <code
+                                class="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
+                        <li><em>To italicize text</em>, use <code
+                                class="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
+                        <li>Abbreviations, like <abbr title="HyperText Markup Language">HTML</abbr> should use <code
+                                class="language-plaintext highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code
+                                class="language-plaintext highlighter-rouge">title</code> attribute for the full phrase.
+                        </li>
+                        <li>Citations, like <cite>— Mark Otto</cite>, should use <code
+                                class="language-plaintext highlighter-rouge">&lt;cite&gt;</code>.</li>
+                        <li><del>Deleted</del> text should use <code
+                                class="language-plaintext highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins>
+                            text should use <code class="language-plaintext highlighter-rouge">&lt;ins&gt;</code>.</li>
+                        <li>Superscript <sup>text</sup> uses <code
+                                class="language-plaintext highlighter-rouge">&lt;sup&gt;</code> and subscript
+                            <sub>text</sub> uses <code class="language-plaintext highlighter-rouge">&lt;sub&gt;</code>.
+                        </li>
+                    </ul>
+                    <p>Most of these elements are styled by browsers with few modifications on our part.</p>
+                    <h2>Understanding the Art of Self-Reference</h2>
+                    <p>This heading encapsulates the essence of the content, indicating that the upcoming discussion
+                        will focus on making recursion more understandable and approachable for readers. It highlights
+                        the goal of unraveling the complexities of recursion and shedding light on its fundamental
+                        principles..</p>
+                    <h3> Unraveling Advanced Recursion Techniques</h3>
+                    <p>Unraveling Advanced Recursion Techniques" is a subheading that suggests an exploration of more
+                        sophisticated and intricate methods within the realm of recursion. In this section, the focus is
+                        on delving deeper into recursion beyond the basics, uncovering advanced strategies,
+                        optimizations, and applications..</p>
+                    <pre><code>Example code block</code></pre>
+                    <p>the factorial function calculates the factorial of a non-negative integer n recursively. The base
+                        case checks if n is equal to 0 or 1, in which case it returns 1. Otherwise, the function
+                        recursively calls itself with the argument (n - 1) and multiplies the result by n. Finally, the
+                        function is tested by calculating the factorial of 5 and printing the result.
+
+
+
+                        .</p>
+                </article>
+
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+                    <p class="blog-post-meta">December 24, 2023 by <a href="#">Chris</a></p>
+
+
+                    <p> New features and techniques, we've expanded our understanding of recursion and its
+                        applications in computer science and programming. By embracing advanced recursion
+                        strategies, exploring real-world problems, and tapping into the power of recursion in
+                        functional programming, we've unlocked new avenues for innovation and problem-solving. As
+                        you continue your journey in mastering recursion, remember to experiment, explore, and push
+                        the boundaries of what's possible with this fascinating concept. Happy coding, and may your
+                        recursive adventures lead you to new heights of programming excellence! </p>
+                </article>
+
+                <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+                    <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
+                </nav>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-body-tertiary rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p class="mb-0"> By Neha Singh (The main points discussed in the article and encourages readers
+                            to continue
+                            their exploration of recursion beyond the scope of the article. It reinforces the importance
+                            of recursion as a fundamental concept in programming and encourages readers to embrace it as
+                            a tool for problem-solving.)</p>
+                    </div>
+
+                    <div>
+                        <h4 class="fst-italic">Recent posts</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                    <!-- <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg> -->
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Design and Develop</h6>
+                                        <small class="text-body-secondary">January 15, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                    <!-- <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg> -->
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Mastering Algorithms: A Guided Journey Through the World of
+                                            Efficiency</h6>
+                                        <small class="text-body-secondary">January 14, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <img class="bd-placeholder-img" width="100%" height="96"
+                                        src="https://plus.unsplash.com/premium_photo-1661412828637-ed8cd6980128?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                                    <!-- <svg class="bd-placeholder-img" width="100%" height="96"
+                                        xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                                        <rect width="100%" height="100%" fill="#777"></rect>
+                                    </svg> -->
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0">Understanding Algorithms</h6>
+                                        <small class="text-body-secondary">January 13, 2024</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Archives</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="#">March 2023</a></li>
+                            <li><a href="#">February 2023</a></li>
+                            <li><a href="#">January 2023</a></li>
+                            <li><a href="#">December 2023</a></li>
+                            <li><a href="#">November 2023</a></li>
+                            <li><a href="#">October 2023</a></li>
+                            <li><a href="#">September 2024</a></li>
+                            <li><a href="#">August 2024</a></li>
+                            <li><a href="#">July 2024</a></li>
+                            <li><a href="#">June 2024</a></li>
+                            <li><a href="#">May 2024</a></li>
+                            <li><a href="#">April 2024</a></li>
+                        </ol>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>© 2023–2024 CoderBlogs, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer> -->
+    <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>Coding Blogs <a href="https://getbootstrap.com/">CoderBlogs</a> by <a
+                href="https://twitter.com/mdo">@neha</a>.</p>
+        <p class="mb-0">
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
